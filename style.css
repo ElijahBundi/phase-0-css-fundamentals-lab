@@ -3,3 +3,26 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+nav a:link {
+  text-align: center;
+  padding: 0px 10px;
+  background-color: grey;
+}
+section > p {
+  font-size: 15px;
+  text-align: center;
+  width: fit-content;
+  padding: 0px 150px;
+}
+section > div {
+  float: left;
+  width: 25%;
+  background-color: lightskyblue;
+  text-align: center;
+}
